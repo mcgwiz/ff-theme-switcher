@@ -5,18 +5,9 @@ function changeTheme(theme) {
   }
   
   document.getElementById('lightButton').addEventListener('click', function() {
-    changeTheme('Light');
+    changeTheme('light');
   });
   
   document.getElementById('darkButton').addEventListener('click', function() {
-    changeTheme('Dark');
+    changeTheme('dark');
   });
-  
-  document.getElementById('allstarButton').addEventListener('click', function() {
-    changeTheme('Allstar');
-  });
-  
-  document.getElementById('owlButton').addEventListener('click', function() {
-    changeTheme('Owl');
-  });
-  
